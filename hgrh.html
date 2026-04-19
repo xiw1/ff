@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الهجرة النبوية</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    background: linear-gradient(to bottom, #eef2f7, #ffffff);
+}
+
+/* الهيدر */
+header {
+    background: linear-gradient(90deg, #0d6efd, #003c8f);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* القائمة */
+nav {
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #003c8f;
+}
+
+/* المحتوى */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #0d6efd;
+}
+
+/* زر */
+button {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #003c8f;
+}
+
+/* الفوتر */
+footer {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>الهجرة النبوية</h1>
+    <p>رحلة عظيمة صنعت تاريخ الأمة الإسلامية</p>
+</header>
+
+<nav>
+    <a href="#about">نبذة</a>
+    <a href="#reasons">الأسباب</a>
+    <a href="#events">الأحداث</a>
+    <a href="#results">النتائج</a>
+</nav>
+
+<div class="container">
+
+<div class="card" id="about">
+    <h2>نبذة عن الهجرة</h2>
+    <p>
+        هاجر النبي محمد ﷺ من مكة إلى المدينة بسبب الأذى الذي لحق بالمسلمين،
+        وكانت هذه الهجرة بداية تأسيس الدولة الإسلامية.
+    </p>
+</div>
+
+<div class="card" id="reasons">
+    <h2>أسباب الهجرة</h2>
+    <ul>
+        <li>اضطهاد قريش للمسلمين</li>
+        <li>نشر الدعوة بحرية</li>
+        <li>وجود أنصار في المدينة</li>
+    </ul>
+</div>
+
+<div class="card" id="events">
+    <h2>أهم الأحداث</h2>
+    <p>
+        خرج النبي ﷺ مع أبو بكر الصديق رضي الله عنه، واختبآ في غار ثور،
+        ثم اتجها إلى المدينة واستقبلهما الأنصار.
+    </p>
+    <button onclick="showInfo()">معلومة مهمة</button>
+</div>
+
+<div class="card" id="results">
+    <h2>نتائج الهجرة</h2>
+    <ul>
+        <li>تأسيس الدولة الإسلامية</li>
+        <li>تقوية المسلمين</li>
+        <li>بداية التقويم الهجري</li>
+    </ul>
+</div>
+
+</div>
+
+<footer>
+    <p>© موقع تعليمي - الهجرة النبوية</p>
+</footer>
+
+<script>
+function showInfo() {
+    alert("الهجرة كانت خطوة استراتيجية لنشر الإسلام وبناء مجتمع قوي.");
+}
+</script>
+
+</body>
+</html>
